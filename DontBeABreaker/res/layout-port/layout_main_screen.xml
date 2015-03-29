@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobeta.android.dslv.DragSortListView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:dbtc="http://schemas.android.com/apk/res/com.yattatech.dbtc"
+   	xmlns:tools="http://schemas.android.com/tools"
+   	android:id="@+id/taskList" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@color/grey2"
+    android:dividerHeight="0.5sp"
+    android:listSelector="@color/grey1"
+    android:fastScrollEnabled="true"
+   	dbtc:drag_enabled="true"
+   	dbtc:remove_enabled="false"
+   	dbtc:collapsed_height="2dp"
+    dbtc:drag_scroll_start="0.33"
+    dbtc:max_drag_scroll_speed="0.5"
+    dbtc:float_alpha="0.5"
+    dbtc:slide_shuffle_speed="0.3"
+    dbtc:track_drag_sort="false"
+    dbtc:use_default_controller="true"
+    dbtc:drag_start_mode="onDown"
+    dbtc:drag_handle_id="@id/txTaskname" 
+    tools:listitem="@layout/task_item"/>
+

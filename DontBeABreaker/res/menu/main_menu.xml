@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >    
+	<item
+	    android:id="@+id/action_settings"
+	    android:icon="@drawable/ic_menu"
+	    android:showAsAction="always"
+	    android:title="@string/menu_title" >    
+	    <menu>
+	    	<item android:id="@+id/addItem" 
+	          	android:title="@string/add_item"
+	          	android:orderInCategory="1" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="true" />
+	        
+	    	<item android:id="@+id/editItem" 
+	          	android:title="@string/edit_item"
+	          	android:orderInCategory="2" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="false" />
+	    
+	    	<item android:id="@+id/removeItem" 
+	          	android:title="@string/remove_item"
+	          	android:orderInCategory="3" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="false" />
+
+	    	<item android:id="@+id/syncItem" 
+	          	android:title="@string/sync_item"
+	          	android:orderInCategory="4" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="true" />
+	    	
+	    	<item android:id="@+id/restoreItem" 
+	          	android:title="@string/restore_item"
+	          	android:orderInCategory="5" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="true" />	    	    		    	    		    		    	    		    
+	    	
+	    	<item android:id="@+id/logoffItem" 
+	          	android:title="@string/logoff_item"
+	          	android:orderInCategory="6" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="true" />	    	    		    	    		    		    	    		    
+	    	
+	    	<item android:id="@+id/creditsItem" 
+	          	android:orderInCategory="7" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="false" />	    	    		    	    		    		    	    		    
+
+	    	<item android:id="@+id/settingsItem" 
+	          	android:title="@string/settings_item"
+	          	android:orderInCategory="8" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="false" />	    	    		    	    		    		    	    		    
+	    		    		    	
+	    	<item android:id="@+id/exitItem" 
+	          	android:orderInCategory="9" 
+	          	android:showAsAction="ifRoom" 
+	          	android:visible="false" />        
+	    </menu>    
+	</item>            
+</menu>

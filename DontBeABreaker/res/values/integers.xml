@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- to be used in release version -->
+	<integer name="longAnimTime">1500</integer>
+	<!-- to be used in debug version-->
+	<!--integer name="longAnimTime">3000</integer-->
+	<integer name="task_length">20</integer>
+	<integer name="twitter_max_length">140</integer>
+	<integer name="task_max_days">3</integer>
+</resources>

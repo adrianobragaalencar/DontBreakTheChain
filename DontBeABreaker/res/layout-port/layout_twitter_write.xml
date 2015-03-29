@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="false" 
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtTweet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:padding="10dp" 
+        android:maxLength="@integer/twitter_max_length"
+        android:textColor="@color/black"
+		android:textSize="18sp"
+		android:textStyle="bold" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_ok" 
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView 
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_logout" 
+            android:layout_alignParentRight="true"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

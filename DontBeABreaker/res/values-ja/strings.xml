@@ -1,0 +1,57 @@
+<!--
+  /*
+   * Copyright (c) 2014, Yatta Tech and/or its affiliates. All rights reserved.
+   * YATTATECH PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+   */
+-->
+<resources>
+    <string name="app_name">Dont Be A Breaker</string>
+    <!-- Main menu items -->
+    <string name="menu_title">Menu</string>
+	<string name="add_item">Adicionar</string>
+	<string name="edit_item">Editar</string>
+	<string name="remove_item">Remover</string>
+	<string name="finish_item">Finalizar</string>
+	<string name="sync_item">Sincronizar</string>
+	<string name="restore_item">Restaurar</string>
+	<string name="logoff_item">LogOff</string>
+	<string name="lab_checked">Checado</string>
+	<string name="lab_not_checked">Não Checado</string>	
+	<string name="lab_finished">Finalizado</string>
+	<string name="lab_confirm">Confirmar</string>
+	<string name="lab_data_lost">Você irá perder todos os seus dados locais.</string>	
+	<string name="lab_yes">Sim</string>
+	<string name="lab_no">Não</string>	
+	<string name="lab_no_data_restore">Você não tem dados a serem restaurados.</string>	
+	<string name="lab_data_restore_failed">A restauração dos dados falhou.</string>	
+	<string name="lab_no_data_sync">Você não tem tarefas a serem sincronizadas.</string>
+	<string name="lab_restore_title">Restaurando</string>
+	<string name="lab_sync_title">Sincronizando</string>				
+	<!-- New Task activity -->
+	<string name="lab_fixed">Fixo</string>
+	<string name="lab_days">Dias</string>
+	<string name="lab_new_task_title">Adicionar Nova Tarefa</string>
+	<string name="lab_edit_task_title">Editar Tarefa</string>
+	<string name="lab_new_task">Nome</string>
+	<string name="empty_task_name">Tarefa não pode ser vazia.</string>
+	<string name="empty_task_time">O tempo da tarefa não pode ser vazio.</string>
+	<string name="task_time_invalid">Tempo válido %s.</string>
+	<string name="add_task_fail">A tarefa não pode ser adicionada.</string>
+	<string name="edit_task_fail">A tarefa não pode ser editada.</string>
+	<string name="backup_fail">Backup remoto falhou.</string>
+	<string name="backup_fail_detail">Backup remoto falhou. \nCausa: %s</string>
+	<string name="backup_success">Backup remoto realizado com sucesso.</string>
+	<!-- Chain -->
+	<string name="lab_comment_twitter">Comente o progresso da sua tarefa.</string>
+	<string name="lab_no_connection">Não há conectividade.</string>
+	<string name="lab_twitter_empty">A mensagem do twitter não pode ser vazia.</string>
+	<string name="lab_twitter_success">Login do twitter realizado com sucesso.</string>
+	<string name="lab_twitter_failed">Login do twitter falhou.</string>
+	<string name="lab_twitter_denied">Login do twitter rejeitado.</string>
+	<string name="lab_twitter_unknow">Login do twitter falhou.</string>
+	<string name="lab_dropbox_failed">Linkagem com o Dropbox falhou.</string>
+	<!-- Format -->
+	<string name="date_format">yyyy/MM/dd</string>	
+	<!-- Splashscreen -->
+	<string name="system_clock_outof_sync">O relógio do sistema parece desatualizado. \nPor favor atulize-o para utilizar a app.</string>	
+</resources>

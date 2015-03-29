@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="crittercism_id" translatable="false">CRITTERCISM_HERE</string>
+	<string name="twitter_key" translatable="false">TWITTER_KEY_HERE</string>
+	<string name="twitter_secret" translatable="false">TWITTER_SECRET_HERE</string>    
+	<string name="dropbox_key" translatable="false">DROPBOX_KEY_HERE</string>   
+	<string name="dropbox_secret" translatable="false">DROPBOX_SECRET_HERE</string>   
+</resources>

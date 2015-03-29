@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_build" default="build-all">
+
+	<property file="ant.properties" />	
+	<property file="ant-certifcate.properties" />	
+	
+	<target name="build-all" depends="-init, -build-release">	
+	</target>
+	
+	<target name="-init">
+		<echo>Creating build directory</echo>
+        <delete dir="${build.dir}"/>
+        <mkdir  dir="${build.dir}"/>
+    </target>
+						
+	<target name="-build-release" >
+		<echo>****************************************</echo>
+		<echo>*************Build Release *************</echo>
+		<echo>****************************************</echo>	    	   
+		<ant antfile="build.xml" target="clean"/>		
+		<ant antfile="build.xml" target="release"/>		
+		<move file="${bin.dir}/DontBeABreaker-release-unsigned.apk" tofile="${dbtc.release.apk}"/>
+		<exec executable="jarsigner" failonerror="true">
+            <arg line="-verbose -storepass ${key.store.password} -keypass ${key.alias.password} -sigalg MD5withRSA -digestalg SHA1 -keystore ${key.store} ${dbtc.release.apk} DontBeABreaker"/>
+        </exec>
+		<exec executable="zipalign" failonerror="true">
+            <arg line="-f -v 4 ${dbtc.release.apk} ${dbtc.release.signed.apk}"/>
+        </exec>		
+	</target>	
+</project>

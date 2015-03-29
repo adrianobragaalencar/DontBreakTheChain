@@ -1,0 +1,116 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/txTaskname"	
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:gravity="center"/>
+    
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_below="@+id/txTaskname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+
+            <ImageView
+                android:contentDescription="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_left" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+
+            <ImageView
+                android:contentDescription="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_right" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout android:id="@+id/grids" 
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/header"
+	        android:orientation="vertical" >
+        <GridView        
+        	android:id="@+id/gridviewDay"
+        	android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_gravity="center_horizontal"
+        	android:listSelector="@android:color/transparent"
+        	android:numColumns="7"
+        	android:stretchMode="columnWidth" />
+    
+        <!-- fragment android:id="@+id/calendarFrag" 
+            android:name="com.yattatech.dbtc.fragments.CalendarPagerFragment"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" 
+            tools:layout="@layout/fragment_calendar_pager" /-->
+        
+    	<GridView        
+        	android:id="@+id/gridview"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:listSelector="@android:color/transparent"
+        	android:numColumns="7"
+        	android:stretchMode="columnWidth" />
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignBottom="@+id/grids"
+	        android:orientation="horizontal" >
+    	<TextView
+    	    	android:id="@+id/imgTwitter"         
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginBottom="10dp"
+		        android:drawableLeft="@drawable/ic_twitter"
+		        android:text="@string/lab_comment_twitter"
+		        android:gravity="bottom"
+		        android:textColor="@color/black"
+		        android:textSize="18sp"
+		        android:textStyle="bold" />                
+    </LinearLayout>
+           
+</RelativeLayout>

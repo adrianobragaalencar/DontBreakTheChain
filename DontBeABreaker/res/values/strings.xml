@@ -1,0 +1,60 @@
+<!--
+  /*
+   * Copyright (c) 2014, Yatta Tech and/or its affiliates. All rights reserved.
+   * YATTATECH PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+   */
+-->
+<resources>
+    <string name="app_name">Dont Be A Breaker</string>
+    <!-- Main menu items -->
+    <string name="menu_title">Menu</string>
+	<string name="add_item">Add</string>
+	<string name="edit_item">Edit</string>
+	<string name="remove_item">Remove</string>
+	<string name="finish_item">Finish</string>	
+	<string name="settings_item">Settings</string>
+	<string name="sync_item">Sync</string>
+	<string name="restore_item">Restore</string>
+	<string name="logoff_item">LogOff</string>
+	<string name="lab_checked">Checked</string>	
+	<string name="lab_not_checked">Not checked</string>
+	<string name="lab_finished">Finished</string>	
+	<string name="lab_confirm">Confirm</string>
+	<string name="lab_data_lost">You are about to lose all your local data.</string>	
+	<string name="lab_yes">Yes</string>
+	<string name="lab_no">No</string>	
+	<string name="lab_no_data_restore">You have no data to be restored.</string>	
+	<string name="lab_data_restore_failed">Data restore has failed.</string>	
+	<string name="lab_no_data_sync">You have no task to be synced.</string>
+	<string name="lab_restore_title">Restoring</string>
+	<string name="lab_sync_title">Syncing</string>				
+	<!-- New Task activity -->
+	<string name="lab_fixed">Fixed</string>
+	<string name="lab_days">Days</string>
+	<string name="lab_new_task_title">Add New Task</string>
+	<string name="lab_edit_task_title">Edit Task</string>
+	<string name="lab_new_task">Name</string>
+	<string name="empty_task_name">Task name cannot be empty.</string>	
+	<string name="empty_task_time">Task time cannot be empty.</string>
+	<string name="task_time_invalid">Valid time %s.</string>
+	<string name="add_task_fail">Task could not be added.</string>
+	<string name="edit_task_fail">Task could not be edited.</string>
+	<string name="backup_fail">Remote Backup has failed.</string>
+	<string name="backup_fail_detail">Remote Backup has failed. \nCause: %s</string>
+	<string name="backup_success">Remote Backup done successfuly.</string>	
+	<!-- Chain -->
+	<string name="lab_comment_twitter">Comment on your task progress.</string>
+	<string name="lab_no_connection">There is no network connectivity.</string>
+	<string name="lab_twitter_empty">Twitter message cannot empty.</string>
+	<string name="lab_twitter_success">Twitter logon success.</string>
+	<string name="lab_twitter_failed">Twitter logon has failed.</string>
+	<string name="lab_twitter_denied">Twitter logon has been denied.</string>
+	<string name="lab_twitter_unknow">Twitter logon has failed.</string>
+	<string name="lab_dropbox_failed">Dropbox linked failed.</string>
+	<!-- Format -->
+	<string name="date_format">MM/dd/yyyy</string>	
+	<string name="lab_task_max_days_placeholder"></string>	
+	<!-- Splashscreen -->
+	<string name="system_clock_outof_sync">Your system clock seems to be out of sync, \nPlease check your device clock.</string>
+	
+</resources>

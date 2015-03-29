@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:paddingTop="16dp"
+        android:id="@+id/txTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/black" 
+        android:text="@string/lab_new_task_title" />
+    
+    <LinearLayout
+        android:layout_below="@+id/edtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >        
+        <RelativeLayout 
+            android:id="@+id/maxDays"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" 
+        	android:visibility="gone">
+    		<TextView
+    		    android:id="@+id/labMaxDays"
+    		    android:paddingTop="16dp"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	        	
+        		android:textSize="20sp"
+        		android:textColor="@color/black" 
+        		android:text="@string/lab_days" />
+            <EditText
+                android:paddingTop="16dp" 
+                android:id="@+id/maxDayPicker"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" 
+        		android:inputType="number"             		
+        		android:layout_toRightOf="@+id/labMaxDays"
+        		android:text="@string/lab_task_max_days_placeholder"
+        		android:maxLength="@integer/task_max_days"
+        		android:textColor="@color/black"
+        		android:textSize="20sp" />
+        		
+        </RelativeLayout>
+        <RelativeLayout
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content" 
+        		android:orientation="horizontal" >
+        	<CheckBox 
+            	android:id="@+id/checkBoxTime"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true"
+        		android:layout_marginTop="30dp"
+        		android:text="@string/lab_fixed" 
+        		android:textColor="@color/black"
+        		android:visibility="visible"
+        		/>
+    		<TextView
+        		android:id="@+id/btnAddTask"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	        	
+        		android:layout_marginTop="26dp"
+        		android:layout_marginRight="10dp"     
+        		android:layout_alignParentRight="true"   	
+        		android:drawableTop="@drawable/ic_ok" />                    
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txTitle"
+        android:layout_marginTop="18dp"
+        android:textSize="20sp"
+        android:textColor="@color/black" 
+        android:text="@string/lab_new_task" />
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txName"
+        android:layout_alignBottom="@+id/txName"
+        android:layout_toRightOf="@+id/txName"
+        android:ems="@integer/task_length"
+        android:layout_marginLeft="@dimen/add_task_name_margin_left"
+        android:inputType="text"
+        android:maxLength="@integer/task_length"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</RelativeLayout>

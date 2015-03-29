@@ -1,0 +1,58 @@
+<!--
+  /*
+   * Copyright (c) 2014, Yatta Tech and/or its affiliates. All rights reserved.
+   * YATTATECH PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+   */
+-->
+<resources>
+    <string name="app_name">Dont Be A Breaker</string>
+    <!-- Main menu items -->
+    <string name="menu_title">Menuo</string>
+	<string name="add_item">Aldonu</string>
+	<string name="edit_item">Redaktu</string>
+	<string name="remove_item">Forigu</string>
+	<string name="finish_item">Fini</string>
+	<string name="settings_item">Agordaro</string>
+	<string name="sync_item">Sinkronigu</string>
+	<string name="restore_item">Restarigu</string>
+	<string name="logoff_item">LogOff</string>
+	<string name="lab_checked">Kontrolita</string>	
+	<string name="lab_not_checked">Nekontrolita</string>
+	<string name="lab_finished">Finita</string>	
+	<string name="lab_confirm">Konfirmu</string>
+	<string name="lab_data_lost">Vi perdos ĉiujn lokajn datumojn.</string>	
+	<string name="lab_yes">Jes</string>
+	<string name="lab_no">Ne</string>	
+	<string name="lab_no_data_restore">Vi ne havas restarigeblajn datumojn.</string>	
+	<string name="lab_data_restore_failed">La restarigo de datumoj malsukcesis.</string>	
+	<string name="lab_no_data_sync">Vi ne havas sinkronigeblajn taskojn.</string>
+	<string name="lab_restore_title">Restarigante</string>
+	<string name="lab_sync_title">Sinkronigante</string>				
+	<!-- New Task activity -->
+	<string name="lab_fixed">Fixed</string>
+	<string name="lab_days">Days</string>
+	<string name="lab_new_task_title">Aldonu novan taskon</string>
+	<string name="lab_edit_task_title">Redaktu taskon</string>
+	<string name="lab_new_task">Nomo</string>
+	<string name="empty_task_name">La tasko ne malplenu.</string>	
+	<string name="empty_task_time">La tiempo ne malplenu.</string>
+	<string name="task_time_invalid">Valida tempo %s.</string>
+	<string name="add_task_fail">La tasko ne aldoneblas.</string>
+	<string name="edit_task_fail">La tasko ne redakteblas.</string>
+	<string name="backup_fail">La fora sekurkopio malsukcesis.</string>
+	<string name="backup_fail_detail">La fora sekurkopio malsukcesis. \nPro: %s</string>
+	<string name="backup_success">La fora sekurkopio sukcesis.</string>
+	<!-- Chain -->
+	<string name="lab_comment_twitter">Prikomentu la progreson de via tasko.</string>
+	<string name="lab_no_connection">Sen konektebleco.</string>
+	<string name="lab_twitter_empty">La tvitera mesaĝo ne malplenu.</string>
+	<string name="lab_twitter_success">La tvitera ensaluto sukcesis.</string>
+	<string name="lab_twitter_failed">La tvitera ensaluto malsukcesis.</string>
+	<string name="lab_twitter_denied">La tvitera ensaluto forneiĝis.</string>
+	<string name="lab_twitter_unknow">La tvitera ensaluto malsukcesis.</string>
+	<string name="lab_dropbox_failed">La konekto kun Dropbox malsukcesis.</string>
+	<!-- Format -->
+	<string name="date_format">yyyy-MM-dd</string>	
+	<!-- Splashscreen -->
+	<string name="system_clock_outof_sync">La sistema horloĝo ŝajnas missinkronigita. \nBonvolu alĝustigi ĝin por uzi la aplikaĵon.</string>	
+</resources>

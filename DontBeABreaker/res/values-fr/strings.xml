@@ -1,0 +1,58 @@
+<!--
+  /*
+   * Copyright (c) 2014, Yatta Tech and/or its affiliates. All rights reserved.
+   * YATTATECH PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+   */
+-->
+<resources>
+    <string name="app_name">Dont Be A Breaker</string>
+    <!-- Main menu items -->
+    <string name="menu_title">Menu</string>
+	<string name="add_item">Ajouter</string>
+	<string name="edit_item">Éditer</string>
+	<string name="remove_item">Retirer</string>
+	<string name="finish_item">Finisseur</string>
+	<string name="settings_item">Configurations</string>
+	<string name="sync_item">Synchroniser</string>
+	<string name="restore_item">Récupérer</string>
+	<string name="logoff_item">LogOff</string>
+	<string name="lab_checked">Vérifié</string>
+	<string name="lab_not_checked">Non vérifié</string>
+	<string name="lab_finished">Finalisé</string>	
+	<string name="lab_confirm">Confirmer</string>
+	<string name="lab_data_lost">Vous allez perdre toutes vos données locales.</string>	
+	<string name="lab_yes">Oui</string>
+	<string name="lab_no">Non</string>	
+	<string name="lab_no_data_restore">Vous n\'avez pas de données à récupérer.</string>	
+	<string name="lab_data_restore_failed">La récupération des données a échoué.</string>	
+	<string name="lab_no_data_sync">Vous n\'avez pas de tâches à synchroniser.</string>
+	<string name="lab_restore_title">En train de récupérer</string>
+	<string name="lab_sync_title">En train de synchroniser</string>				
+	<!-- New Task activity -->
+	<string name="lab_fixed">Fixé</string>
+	<string name="lab_days">Journées</string>	
+	<string name="lab_new_task_title">Ajouter une nouvelle tâche</string>
+	<string name="lab_edit_task_title">Éditer une tâche</string>
+	<string name="lab_new_task">Nom</string>
+	<string name="empty_task_name">La tâche ne peut être vide.</string>
+	<string name="empty_task_time">La temps ne peut être vide.</string>	
+	<string name="task_time_invalid">Les valeurs valides %s.</string>
+	<string name="add_task_fail">La tâche ne peut être ajoutée.</string>
+	<string name="edit_task_fail">La tâche ne peut être éditée.</string>
+	<string name="backup_fail">La sauvegarde distante a échoué.</string>
+	<string name="backup_fail_detail">La sauvegarde distante a échoué. \nCause: %s</string>
+	<string name="backup_success">La sauvegarde distante a réussi.</string>
+	<!-- Chain -->
+	<string name="lab_comment_twitter">Commentez l\'avancement de votre tâche.</string>
+	<string name="lab_no_connection">Pas de connexion possible.</string>
+	<string name="lab_twitter_empty">Le message pour twitter ne peut être vide.</string>
+	<string name="lab_twitter_success">Le login du twitter a réussi.</string>
+	<string name="lab_twitter_failed">Le login du twitter a échoué.</string>
+	<string name="lab_twitter_denied">Le login du twitter a été refusé.</string>
+	<string name="lab_twitter_unknow">Le login do twitter a échoué.</string>
+	<string name="lab_dropbox_failed">La connexion avec Dropbox a échoué.</string>
+	<!-- Format -->
+	<string name="date_format">dd/MM/yyyy</string>	
+	<!-- Splashscreen -->
+	<string name="system_clock_outof_sync">L\'horloge du système semble déréglée. \nS\'il vous plaît, ajustez-la pour utiliser l\'application.</string>	
+</resources>
